@@ -7,6 +7,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+import org.springframework.context.annotation.Bean;
+import org.springframework.core.convert.converter.Converter;
+
+import com.jiuqi.jpa.model.Message;
+import com.jiuqi.jpa.repository.InMemoryMessageRepository;
+import com.jiuqi.jpa.repository.MessageRepository;
 
 /**
  * <p>
@@ -19,7 +25,20 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
  */
 @SpringBootApplication
 public class JpaApplication extends SpringBootServletInitializer {
-
+	@Bean
+	public MessageRepository messageRepository() {
+		return new InMemoryMessageRepository();
+	}
+	@Bean
+	public Converter<String, Message> messageConverter() {
+		return new Converter<String, Message>() {
+			@Override
+			public Message convert(String id) {
+				return messageRepository().findMessage(Long.valueOf(id));
+			}
+		};
+	}
+	
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(JpaApplication.class);

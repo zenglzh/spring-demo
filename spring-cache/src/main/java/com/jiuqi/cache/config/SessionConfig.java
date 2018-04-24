@@ -1,9 +1,10 @@
 /*
  * @(#)SessionConfig.java  
  */
-package com.jiuqi.jpa.config;
+package com.jiuqi.cache.config;
 
 import org.springframework.context.annotation.Configuration;
+import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
 
 /**
  *<p>Title:</p>

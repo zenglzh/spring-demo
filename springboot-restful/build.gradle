@@ -34,6 +34,8 @@ dependencies {
 	compile("org.springframework.boot:spring-boot-starter-data-jpa:${springBootVersion}")
 	compile("org.springframework.boot:spring-boot-starter-thymeleaf:${springBootVersion}")
 	compile("org.springframework.boot:spring-boot-devtools:${springBootVersion}")
+	// https://mvnrepository.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-starter
+	compile group: 'org.mybatis.spring.boot', name: 'mybatis-spring-boot-starter', version: '1.3.2'
 	
 	compile("mysql:mysql-connector-java:5.1.39")
 	  // Use JUnit test framework

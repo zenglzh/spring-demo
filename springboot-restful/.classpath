@@ -40,6 +40,11 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry sourcepath="C:/Users/zenglizhi.JIUQI/.gradle/caches/modules-2/files-2.1/org.mybatis.spring.boot/mybatis-spring-boot-starter/1.3.2/2c1985036c87597edaffa2b50176f02def7d4981/mybatis-spring-boot-starter-1.3.2-sources.jar" kind="lib" path="C:/Users/zenglizhi.JIUQI/.gradle/caches/modules-2/files-2.1/org.mybatis.spring.boot/mybatis-spring-boot-starter/1.3.2/cb6de087ae0d34b23ad0671aacdbcc433d84875f/mybatis-spring-boot-starter-1.3.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry sourcepath="C:/Users/zenglizhi.JIUQI/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.39/613d0456fa79f67749af2754b6c23abf43b9574f/mysql-connector-java-5.1.39-sources.jar" kind="lib" path="C:/Users/zenglizhi.JIUQI/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.39/4617fe8dc8f1969ec450984b0b9203bc8b7c8ad5/mysql-connector-java-5.1.39.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
@@ -115,12 +120,27 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry sourcepath="C:/Users/zenglizhi.JIUQI/.gradle/caches/modules-2/files-2.1/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/1.3.2/dfbf485f3e43573c1b65c2e8398387f32d33ca3c/mybatis-spring-boot-autoconfigure-1.3.2-sources.jar" kind="lib" path="C:/Users/zenglizhi.JIUQI/.gradle/caches/modules-2/files-2.1/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/1.3.2/cada00d6bb4e7b8a733b3cd376ad69a307008685/mybatis-spring-boot-autoconfigure-1.3.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry sourcepath="C:/Users/zenglizhi.JIUQI/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.1.RELEASE/e4f10fbe21036deaf8a127b5cff982cbde0be845/spring-boot-autoconfigure-2.0.1.RELEASE-sources.jar" kind="lib" path="C:/Users/zenglizhi.JIUQI/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.1.RELEASE/b0bf9d34ed70c6987a86cd58a009065e5fa02545/spring-boot-autoconfigure-2.0.1.RELEASE.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="C:/Users/zenglizhi.JIUQI/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.0.1.RELEASE/6256c81ff81377b54b95e89817b93ba408513918/spring-boot-2.0.1.RELEASE-sources.jar" kind="lib" path="C:/Users/zenglizhi.JIUQI/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.0.1.RELEASE/b8c5b14cbb0e52fdded8f98a8c1493cc74c7cf59/spring-boot-2.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/zenglizhi.JIUQI/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.6/bdf12283a2374b67a2411355947cd726bef6e800/mybatis-3.4.6-sources.jar" kind="lib" path="C:/Users/zenglizhi.JIUQI/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.6/a77a546f679533837f6c6a75c034b669f3ce6a2f/mybatis-3.4.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/zenglizhi.JIUQI/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis-spring/1.3.2/ef333f910627506d924a7fd8f0fa0e6dc7c1e366/mybatis-spring-1.3.2-sources.jar" kind="lib" path="C:/Users/zenglizhi.JIUQI/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis-spring/1.3.2/fd9961cd026b1f6998be27c516973dd5366b14ec/mybatis-spring-1.3.2.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
